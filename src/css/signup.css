@@ -1,0 +1,104 @@
+#parent-signup{
+     display: flex;
+    background-color: rgb(182, 166, 145);
+}
+
+
+/* #child{
+     margin: 100px;
+    margin-right: 300px ;
+    background-color: rgb(32, 226, 226);
+    overflow: hidden; 
+  }
+#child{
+     margin: 100px;
+    margin-right: 300px ;
+    background-color: aqua;
+
+} */
+.signup-img{
+    margin-left: 200px;
+    height: 600px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    height: 400px;
+}
+#signup-input{
+    height: 35px;
+    border: 1px solid #888686;
+    border-radius: 4px;
+    border-color: #a1a0a0; 
+    border-color: #a1a0a0;
+    box-shadow: 0 0 5px rgba(189, 188, 188, 0.5);
+    margin-top: 30px;
+}
+#names-input{
+    height: 35px;
+    border: 1px solid #888686;
+    border-radius: 4px;
+    border-color: #a1a0a0; 
+    box-shadow: 0 0 5px rgba(189, 188, 188, 0.5); 
+    margin-top: 20px;
+}
+#names-input::placeholder{
+    position: absolute;
+    left: 10px;
+    background-color: white;
+    color: #252525; 
+    font-size: 11px;
+    z-index: 2; 
+    font-style:inherit;
+  
+}
+#signup-input::placeholder{
+    position: absolute;
+    left: 10px;
+    background-color: white;
+    color: #252525;
+    font-size: 11px;
+    z-index: 2;
+    font-style:inherit;
+}
+.signup-parent{
+    height: 600px;
+    margin-top: 100px;
+    height: 500px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+.signup-form{
+   background-color: rgb(255, 255, 255);
+   height: 300px;
+   width: 450px;
+   margin-right: 200px;
+   margin-top: 100PX;
+}
+.signup-button{
+    height: 30px;
+    width: 400px;
+    font-size: 11px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #5e5cd6;
+    border-radius: 4px;
+    margin-left: 25px;
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+.logout-button{
+    height: 30px;
+    width: 300px;
+    font-size: 11px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 4px;
+    background-color: #5e5cd6;
+}
+#homeparent{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+.text-smaller {
+    font-size: 0.8em;
+    color: red; 
+    color: red;
+  }
