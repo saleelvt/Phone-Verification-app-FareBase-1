@@ -1,7 +1,8 @@
 import React, { useEffect, Fragment, useState } from "react";
 import { Button, Spinner } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../css/loginPage.css";
+import '../../css/loginPage.css'
+import '../../css/signup.css'
 import { db } from "../../firebase/config.js";
 
 import { collection, query, where, getDocs, addDoc } from "firebase/firestore";

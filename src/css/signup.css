@@ -1,21 +1,4 @@
-#parent-signup{
-     display: flex;
-    background-color: rgb(182, 166, 145);
-}
 
-
-/* #child{
-     margin: 100px;
-    margin-right: 300px ;
-    background-color: rgb(32, 226, 226);
-    overflow: hidden; 
-  }
-#child{
-     margin: 100px;
-    margin-right: 300px ;
-    background-color: aqua;
-
-} */
 .signup-img{
     margin-left: 200px;
     height: 600px;
@@ -61,7 +44,7 @@
 }
 .signup-parent{
     height: 600px;
-    margin-top: 100px;
+    margin-top: 00px;
     height: 500px;
     display: flex;
     background-color: rgb(255, 255, 255);

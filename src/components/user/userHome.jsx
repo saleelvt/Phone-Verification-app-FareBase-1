@@ -4,8 +4,9 @@ import { Button } from "react-bootstrap";
 import { signOut } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../css/loginPage.css";
-import "../css/signup.css";
+import '../../css/loginPage.css'
+import '../../css/signup.css'
+
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 
 

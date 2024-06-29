@@ -5,6 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useDispatch } from "react-redux";
 import { confirFunction } from "../../store/loginSlices.jsx";
 import { auth } from "../../firebase/config.js";
+import '../../css/loginPage.css'
+import '../../css/signup.css'
 import {
   RecaptchaVerifier,
   signInWithPhoneNumber,

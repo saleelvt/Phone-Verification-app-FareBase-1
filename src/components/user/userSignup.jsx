@@ -1,8 +1,8 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../css/loginPage.css";
-import "../css/signup.css";
+import '../../css/loginPage.css'
+import '../../css/signup.css'
 import { Fragment } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import formikConfig from "../../utils/validations/formi.js";
